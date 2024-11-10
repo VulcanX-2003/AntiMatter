@@ -28,6 +28,6 @@ To build and run the project, you need to set up an environment with the require
 
 2. **Creating a executable for Windows**
     ```bash
-    pyinstaller --onefile clock2.py
+    pyinstaller --onefile clock.py
 
 
