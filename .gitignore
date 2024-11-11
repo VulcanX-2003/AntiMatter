@@ -2,3 +2,4 @@
 /dist
 *.spec
 /clock2.py
+/.vscode
