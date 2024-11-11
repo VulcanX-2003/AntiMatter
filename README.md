@@ -1,4 +1,4 @@
-![Banner](resources/logo.png)
+![Banner](resources/logo.webp)
 
 
 
