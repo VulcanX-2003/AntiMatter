@@ -1,3 +1,6 @@
+![Banner](../resources/Screenshot 2024-11-11 103313.png)
+
+
 # AntiMatter
 
 AntiMatter is an alternative to Rainmeter, designed for users who want customizable widgets on their desktop. Currently, AntiMatter includes a sleek clock widget that displays the date, day, and time, with options to change the font color.
