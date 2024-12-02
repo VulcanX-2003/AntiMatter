@@ -2,4 +2,6 @@
 /dist
 *.spec
 /clock2.py
+/clock3.py
+/clock4.py
 /.vscode
