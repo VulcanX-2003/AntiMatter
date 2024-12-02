@@ -83,7 +83,7 @@ def main():
 
     #system tray icon
     tray_icon = QSystemTrayIcon(QIcon("resources/icon.png"))  # Replace with your icon file path
-    tray_icon.setToolTip("My System Tray App")
+    tray_icon.setToolTip("Antimatter")
 
  
     menu = QMenu()
