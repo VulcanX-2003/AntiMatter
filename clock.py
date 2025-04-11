@@ -11,18 +11,18 @@ class ClockWidget(QWidget):
         # Clock display
         self.clock_label = QLabel(self)
         self.clock_label.setAlignment(Qt.AlignCenter)
-        self.clock_label.setFont(QFont("TimesNewRoman", 40, QFont.Bold))
+        self.clock_label.setFont(QFont("Technology", 120, QFont.Bold))
 
         # Date and day display
         self.date_label = QLabel(self)
         self.date_label.setAlignment(Qt.AlignCenter)
-        self.date_label.setFont(QFont("TimesNewRoman", 20, QFont.Normal))
-        self.date_label.move(0, 80)
+        self.date_label.setFont(QFont("Technology", 35, QFont.Normal))
+        self.date_label.move(0, 130)
 
         # Transparent theme
         palette = QPalette()
         self.setAttribute(Qt.WA_TranslucentBackground)
-        palette.setColor(QPalette.WindowText, QColor("#1e1e1e"))
+        palette.setColor(QPalette.WindowText, QColor("#fefefe"))
         self.setPalette(palette)
         self.setAutoFillBackground(True)
 
@@ -44,7 +44,7 @@ class ClockWidget(QWidget):
         self.clock_label.setText(current_time)
 
         # Update the current date and day
-        current_date = QDate.currentDate().toString("dddd, MMMM d, yyyy")
+        current_date = QDate.currentDate().toString("dddd, MMMM d,yy ")
         self.date_label.setText(current_date)
 
     def mousePressEvent(self, event):
