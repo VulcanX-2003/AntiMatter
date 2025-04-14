@@ -33,5 +33,9 @@ To build and run the project, you need to set up an environment with the require
 2. **Creating a executable for Windows**
     ```bash
     pyinstaller --onefile clock.py
+   
+3. **Run the build.bat file **
+   ```bash
+   .build.bat
 
 
